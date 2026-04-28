@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Sirf EK BAAR pool declare karna hai
 const pool = new Pool({
-  connectionString: 'YOUR_NEON_LINK_HERE', // Apna link yahan dalein
+  connectionString: 'postgresql://neondb_owner:npg_RuloSnyX0C6W@ep-delicate-cake-amxg7dx2-pooler.c-5.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require', // Apna link yahan dalein
   ssl: true
 });
 
